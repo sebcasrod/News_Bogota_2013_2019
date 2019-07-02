@@ -39,12 +39,12 @@ Algunas preguntas/ problemas que motivan este proyecto son:
         - Batch: desde 01/11/2012 to 22/05/2019 (6870 noticias de temas variados): https://bogota.gov.co/mi-ciudad
     
     - Para hacer scrapping de todas las noticias utilice las librerias 'requests' y 'BeautifulSoup'.
-    - El codigo de Python esta disponible [aqui para todos los batches](Notebook/Proyecto_Final.ipynb)
+    - El codigo de Python esta disponible [aqui para todos los batches](Bases/Proyecto_Final.ipynb)
 <br><br>
 2. Extrayendo los datos desde objetos de 'BeatifulSoup':
     - Para scrappear el texto en crudo y los datos provenientes de este, me apoye sobre las funciones realizadas por Santiago Matallana en su trabajo de discursos presidenciales como lo son: get htmls para obtener los htmls de las noticias; get urls para localizarlas todas; get date para buscar la fecha de cada una de las noticias; get titlepara obtener el titulo de cada noticia; remove html tags para eliminar caracteres especiales ocultos dentro del html y finalmente reunir todos estos datos como un objeto estructurado para ponerlo en pandas.
-    - Estas funciones de ayuda esta dispinibles tambien en el documento del notebook inicial.[Haga click aquí](Notebook/Proyecto_Final.ipynb).
-    - Además, lo anterior tambien se realizó para el análisis con el periodo extendido [Aquí se encuentra el código](Proyecto_Extendido/Code/Proyecto_Extendido_Periodo_2012-2019.ipynb)
+    - Estas funciones de ayuda esta dispinibles tambien en el documento del notebook inicial.[Haga click aquí](Bases/Proyecto_Final.ipynb).
+    - Además, lo anterior tambien se realizó para el análisis con el periodo extendido [Aquí se encuentra el código](Bases/Proyecto_Extendido_Periodo_2012-2019.ipynb)
 <br><br>
 3. Manejo, guardado y limpieza de datos:
    - Utilice 'Pandas' para crear un data frame para cada batch de noticias, y luego exporte cada uno a un archivo 'pickle' para guardarlo. 
@@ -82,23 +82,23 @@ Aqui algunas visualizaciones de hallazgos clave:
 
 <img src="Images/Redes.png">
 
-<img src="Proyecto_Extendido/Images/line_month.png">
+<img src="ImagesPE/line_month.png">
 
 Las lineas azules verticales indican los meses donde más publicaciones se hicieron por parte de la Alcaldía Mayor de Bogotá.
 
-<img src="Proyecto_Extendido/Images/bronx_estupefacientes_month.png">
+<img src="ImagesPE/bronx_estupefacientes_month.png">
 
 Las lineas azules verticales indican los meses en los cuales se realizó la intervencion en el bronx y posteriormente la demolición de este espacio.
 
-<img src="Proyecto_Extendido/Images/metro_transmilenio_month.png">
+<img src="ImagesPE/metro_transmilenio_month.png">
 
 La linea azul indica el cambio de administración a la alcaldía de Enrique Peñaloza.
 
-<img src="Proyecto_Extendido/Images/Dispersion_12_19.png">
+<img src="ImagesPE/Dispersion_12_19.png">
 
 Grafico de dispersión de las veces que se mencionan los nombres de algunos de los candidatos anteriores y actuales para la alcaldía.
 
-<img src="Proyecto_Extendido/Images/Dispersion_12_19_1.png">
+<img src="ImagesPE/Dispersion_12_19_1.png">
 
 Grafico de dispersión de las veces que se mencionan unas de las palabras más controversiales en las dos pasadas administraciones.
 
