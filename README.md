@@ -1,5 +1,3 @@
-# News_Bogota_2013_2019
-
 
 # Análisis de las noticias publicadas por la Alcaldía Mayor de Bogotá, desde Enero de 2016 a Mayo de 2019
 
@@ -103,3 +101,4 @@ Grafico de dispersión de las veces que se mencionan los nombres de algunos de l
 <img src="Proyecto_Extendido/Images/Dispersion_12_19_1.png">
 
 Grafico de dispersión de las veces que se mencionan unas de las palabras más controversiales en las dos pasadas administraciones.
+
